@@ -22,6 +22,7 @@ public class LandingPage {
 	public void searchItem(String name)
 	{
 		driver.findElement(search).sendKeys(name);
+		System.out.println("Added under Gitx");
 		
 	}
 	

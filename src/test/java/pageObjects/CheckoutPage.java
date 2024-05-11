@@ -22,6 +22,11 @@ public class CheckoutPage {
 	{
 		driver.findElement(cartBag).click();
 		driver.findElement(checkOutButton).click();
+		System.out.println("New line added");
+		
+		System.out.println("New line added2");
+		System.out.println("New line added3");
+		System.out.println("New line added4");
 		
 		
 	}
