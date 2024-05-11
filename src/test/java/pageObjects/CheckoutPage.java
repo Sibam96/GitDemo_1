@@ -23,6 +23,7 @@ public class CheckoutPage {
 		driver.findElement(cartBag).click();
 		driver.findElement(checkOutButton).click();
 		
+		
 	}
 	
 	public  Boolean VerifyPromoBtn()
