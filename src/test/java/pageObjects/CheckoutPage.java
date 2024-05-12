@@ -31,6 +31,19 @@ public class CheckoutPage {
 		
 	}
 	
+	public void CheckOutItems_1()
+	{
+		driver.findElement(cartBag).click();
+		driver.findElement(checkOutButton).click();
+		System.out.println("New line added");
+		
+		System.out.println("New line added2");
+		System.out.println("New line added3");
+		System.out.println("New line added4");
+		
+		
+	}
+	
 	public  Boolean VerifyPromoBtn()
 	{
 		return driver.findElement(promoBtn).isDisplayed();

@@ -25,11 +25,18 @@ public class LandingPage {
 		System.out.println("Added under Gitx");
 		
 	}
+	public void searchItem_1(String name)
+	{
+		driver.findElement(search).sendKeys(name);
+		System.out.println("Added under Gitx");
+		
+	}
 	
 	public void getSearchText()
 	{
 		
 		driver.findElement(search).getText();
+		
 	}
 	
 	public void IncrementQuantity(int quantity)
