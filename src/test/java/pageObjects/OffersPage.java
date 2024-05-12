@@ -34,6 +34,13 @@ public class OffersPage {
 		
 	}
 	
+	public String getProductName_1()
+	{
+		
+		return driver.findElement(productName).getText();
+		
+	}
+	
 	
 
 }
